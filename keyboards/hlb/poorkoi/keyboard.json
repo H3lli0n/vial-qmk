@@ -16,9 +16,9 @@
         "extrakey": true,
         "key_lock": true,
         "mousekey": true,
-        "encoder": true,
+        "encoder": false,
         "nkro": true,
-        "rgblight": false
+        "rgblight": true
     },
     "matrix_pins": {
         "cols": ["B2", "A5", "A4", "A3", "F1", "F0", "C15", "C14", "C13", "B9", "B8", "B7", "A15", "B3"],
