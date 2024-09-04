@@ -25,6 +25,21 @@
         "rows": ["B14", "A9", "B6", "B5", "B4"]
     },
     "processor": "STM32F072",
+    "rgblight": {
+        "animations": {
+            "alternating": true,
+            "breathing": true,
+            "christmas": true,
+            "knight": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": true,
+            "rgb_test": true,
+            "snake": true,
+            "static_gradient": true,
+            "twinkle": true
+        },
+        "led_count": 17
+    },
     "usb": {
         "device_version": "0.0.5",
         "pid": "0x0014",
