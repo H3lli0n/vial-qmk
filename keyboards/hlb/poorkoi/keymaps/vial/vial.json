@@ -1,6 +1,6 @@
 {
   "name": "PoorKoi",
-  "lighting": "vialrgb",  
+  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 14
