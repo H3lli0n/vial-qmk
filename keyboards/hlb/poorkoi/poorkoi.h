@@ -20,3 +20,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define CAPS_LOCK_ENABLE true
 #define CAPS_LOCK_COLOR HSV_GREEN
+
+#define LAYER_FN_COLOR HSV_TURQUOISE
+#define LAYER_MEDIA_COLOR HSV_ORANGE
+#define LAYER_GAMING_COLOR HSV_CYAN
+#define LAYER_MAC_COLOR HSV_GOLD
+
+enum layers {
+    _BASE = 0,
+    _FN,
+    _MEDIA,
+    _GAME,
+    _MAC,
+};
