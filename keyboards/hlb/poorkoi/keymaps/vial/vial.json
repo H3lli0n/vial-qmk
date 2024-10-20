@@ -1,6 +1,12 @@
 {
   "name": "PoorKoi",
   "lighting": "qmk_rgblight",
+  "customKeycodes": [
+	{"name": "LAY_INDIC_RGB",
+	 "title": "Layer indicator on capslock LED",
+	 "shortName": "L_INDIC"
+	}
+  ],
   "matrix": {
     "rows": 5,
     "cols": 14

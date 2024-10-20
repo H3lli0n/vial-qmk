@@ -33,3 +33,7 @@ enum layers {
     _GAME,
     _MAC,
 };
+
+enum hlbKeycodes {
+    LAY_INDIC_RGB = QK_KB_0,
+};
