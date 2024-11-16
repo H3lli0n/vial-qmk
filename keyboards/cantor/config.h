@@ -7,18 +7,8 @@
 #define SERIAL_USART_TX_PIN B6     // USART TX pin
 #define SERIAL_USART_RX_PIN B7     // USART RX pin
 
-/*
- * Feature disable options
- *  These options are also useful to firmware size reduction.
- */
+#define BOOTMAGIC_ROW 3
+#define BOOTMAGIC_COLUMN 0
 
-/* disable debug print */
-//#define NO_DEBUG
-
-/* disable print */
-//#define NO_PRINT
-
-/* disable action features */
-//#define NO_ACTION_LAYER
-//#define NO_ACTION_TAPPING
-//#define NO_ACTION_ONESHOT
+#define BOOTMAGIC_ROW_RIGHT 7
+#define BOOTMAGIC_COLUMN_RIGHT 2
