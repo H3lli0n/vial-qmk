@@ -52,9 +52,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       * Base Layer: Dvorak
       */
     [_DVORAK] = LAYOUT_split_3x6_3(
-        KC_TRNS, KC_QUOTE,  KC_COMM,  KC_DOT,   KC_P ,   KC_Y,                            KC_F,   KC_G ,  KC_C ,   KC_R ,  KC_L , KC_BSPC,
+        KC_TAB, KC_QUOTE,  KC_COMM,  KC_DOT,   KC_P ,   KC_Y,                            KC_F,   KC_G ,  KC_C ,   KC_R ,  KC_L , KC_BSPC,
         CTL_ESC, KC_A ,  KC_S   ,  KC_D  ,   KC_F ,   KC_G,                               KC_D,   KC_H ,  KC_T ,   KC_N ,  KC_S , CTL_MINS,
-        KC_TRNS, KC_Z ,  KC_X   ,  KC_C  ,   KC_V ,   KC_B,                               KC_B,   KC_M ,  KC_W ,   KC_V ,  KC_Z , KC_RSFT,
+        KC_LSFT, KC_Z ,  KC_X   ,  KC_C  ,   KC_V ,   KC_B,                               KC_B,   KC_M ,  KC_W ,   KC_V ,  KC_Z , KC_RSFT,
                                             KC_BSPC, ALT_ENT, NAV,              SYM, KC_SPC, MODS
     ),
      /*
@@ -73,7 +73,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TRNS, KC_F9 ,  KC_F10,  KC_F11,  KC_F12,   KC_TRNS,                               KC_PGUP, KC_HOME, KC_UP,   KC_END,  KC_VOLU, KC_DEL,
         KC_TRNS, KC_F5 ,  KC_F6 ,  KC_F7 ,  KC_F8,    KC_TRNS,                               KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, KC_VOLD, KC_INS,
         KC_TRNS, KC_F1 ,  KC_F2 ,  KC_F3 ,  KC_F4,    KC_TRNS,                               KC_PAUSE, KC_MPRV, KC_MPLY, KC_MNXT, KC_MUTE, KC_PSCR,
-                                            KC_TRNS, KC_TRNS, KC_TRNS,          KC_RGUI, KC_TRNS, KC_TRNS
+                                            KC_TRNS, KC_TRNS, KC_TRNS,          KC_RGUI, KC_RALT, KC_TRNS
     ),
      /*
       * Symboles
@@ -88,9 +88,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       * Layer for mods
       */
     [_MODS] = LAYOUT_split_3x6_3(
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,    KC_TRNS,                               KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,
-        KC_TRNS, KC_LGUI, KC_LCTL, KC_LALT, KC_LSFT,    KC_TRNS,                               KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS, KC_TRNS,
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_DEL, KC_TRNS,    KC_TRNS,                               KC_TRNS,    KC_TRNS,    KC_TRNS, KC_TRNS,  KC_TRNS, KC_TRNS,
+        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,    KC_TRNS,                              KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS, QWERTY,
+        KC_TRNS, KC_LGUI, KC_LCTL, KC_LALT, KC_LSFT,    KC_TRNS,                              KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS, DVORAK,
+        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_DEL,    KC_TRNS,                               KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS, COLEMAK,
                                             KC_QUOTE, KC_CIRC, KC_SCLN,          KC_TRNS, KC_TRNS, KC_TRNS
     )
 };
