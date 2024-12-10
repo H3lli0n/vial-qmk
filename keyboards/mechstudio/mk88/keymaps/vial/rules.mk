@@ -1,0 +1,13 @@
+VIA_ENABLE = yes
+VIAL_ENABLE = yes
+LTO_ENABLE = yes
+
+RGBLIGHT_ENABLE = yes
+NKRO_ENABLE = yes
+
+QMK_SETTINGS = yes # ~2560 bytes
+TAP_DANCE_ENABLE = no # ~2196 bytes
+COMBO_ENABLE = no # ~2408 bytes
+SPACE_CADET_ENABLE = no # ~324 bytes
+MAGIC_ENABLE = no # ~584 bytes
+KEY_OVERRIDE_ENABLE = no
