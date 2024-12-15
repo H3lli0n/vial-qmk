@@ -3,7 +3,6 @@ VIAL_ENABLE = yes
 LTO_ENABLE = yes
 
 RGBLIGHT_ENABLE = yes
-NKRO_ENABLE = yes
 
 QMK_SETTINGS = yes # ~2560 bytes
 TAP_DANCE_ENABLE = no # ~2196 bytes

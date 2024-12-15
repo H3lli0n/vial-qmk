@@ -15,20 +15,3 @@
  */
 
 #pragma once
-
-/* key matrix size */
-#define MATRIX_ROWS 12
-#define MATRIX_COLS 8
-
-// ROWS: Top to bottom, COLS: Left to right
-#define MATRIX_ROW_PINS {C7,C6,B6,B5,B4,D7,D6,D4,D5,D3,D2,D1}
-#define MATRIX_COL_PINS {F0,F1,F4,F5,F6,F7,D0,E6}
-
-/* COL2ROW, ROW2COL*/
-#define DIODE_DIRECTION COL2ROW
-
-/* set 0 if debouncing is not needed */
-#define DEBOUNCE 5
-
-#define QMK_ESC_OUTPUT C7 // usually COL
-#define QMK_ESC_INPUT F0 // usually ROW
