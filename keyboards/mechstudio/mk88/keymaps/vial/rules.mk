@@ -2,7 +2,7 @@ VIA_ENABLE = yes
 VIAL_ENABLE = yes
 LTO_ENABLE = yes
 
-RGBLIGHT_ENABLE = yes
+RGBLIGHT_ENABLE = no
 
 QMK_SETTINGS = yes # ~2560 bytes
 TAP_DANCE_ENABLE = no # ~2196 bytes
