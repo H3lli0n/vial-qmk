@@ -51,4 +51,21 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #    define RGBLIGHT_VAL_STEP  17
 #endif
 
-#define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
+/* Luna Pet by helltm */
+/* Glcdfont for layers state */
+#ifdef OLED_ENABLE
+#    undef OLED_FONT_H
+#    define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
+#    define SPLIT_OLED_ENABLE
+#    define OLED_TIMEOUT 300000
+#    define OLED_UPDATE_INTERVAL 10
+#    define ANIM_SIZE 96
+#    define MIN_WALK_SPEED      10
+#    define MIN_RUN_SPEED       40
+#    define ANIM_FRAME_DURATION 200
+#endif
+
+#ifdef WPM_ENABLE
+#    define SPLIT_WPM_ENABLE
+#endif
+
