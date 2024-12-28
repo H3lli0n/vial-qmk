@@ -12,3 +12,5 @@
 
 /* Select hand configuration */
 #define EE_HANDS
+#define SPLIT_WATCHDOG_ENABLE
+#define SPLIT_WATCHDOG_TIMEOUT 20000
