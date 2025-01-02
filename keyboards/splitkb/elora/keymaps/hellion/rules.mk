@@ -7,4 +7,6 @@ VIAL_ENABLE = yes
 VIALRGB_ENABLE = yes
 ENCODER_MAP_ENABLE = yes
 
-SPLIT_KEYBOARD = yes
+WPM_ENABLE = yes
+
+SRC += hellion.c

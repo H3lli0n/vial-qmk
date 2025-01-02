@@ -1,6 +1,6 @@
 #include QMK_KEYBOARD_H
 #include <stdio.h>
-#include "bitmaps.h"
+#include "hellion.h"
 
 enum layers {
     _QWERTY = 0,
@@ -324,13 +324,10 @@ static void render_luna(int LUNA_X, int LUNA_Y) {
 
 bool oled_task_user(void) {
 	current_wpm   = get_current_wpm();
-    led_usb_state = host_keyboard_led_state();
 
 	if (is_keyboard_left()) {
         oled_set_cursor(0, 0);
-        //render_layer_state();
-		render_logo();
-		render_wpm();
+        render_layer_state();
         render_modifiers_l(8);
     } else {
 		oled_set_cursor(0, 0);

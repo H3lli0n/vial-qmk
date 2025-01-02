@@ -37,40 +37,38 @@
 
 #define VIAL_TAP_DANCE_ENTRIES 15
 
-//Work on splitkeyboards
-#ifdef SPLIT_KEYBOARD
-	// RGBs
-	#ifdef VIALRGB_ENABLE
-		#define RGBLIGHT_SPLIT
-		#define RGBLIGHT_SLEEP
-		#define RGB_DISABLE_WHEN_USB_SUSPENDED
-		
-		#define RGB_MATRIX_FRAMEBUFFER_EFFECTS
-		#define RGB_MATRIX_KEYPRESSES
-	#endif
+// RGBs
+#ifdef VIALRGB_ENABLE
+	#define RGBLIGHT_SPLIT
+	#define RGBLIGHT_SLEEP
+	#define RGB_DISABLE_WHEN_USB_SUSPENDED
+	
+	#define RGB_MATRIX_FRAMEBUFFER_EFFECTS
+	#define RGB_MATRIX_KEYPRESSES
+#endif
 
-	#ifdef RGBLIGHT_ENABLE
-		#define RGBLIGHT_SPLIT
-		#define RGBLIGHT_SLEEP
-		#define RGB_DISABLE_WHEN_USB_SUSPENDED
-	#endif
+#ifdef RGBLIGHT_ENABLE
+	#define RGBLIGHT_SPLIT
+	#define RGBLIGHT_SLEEP
+	#define RGB_DISABLE_WHEN_USB_SUSPENDED
+#endif
 
-	/* Luna Pet by helltm */
-	#ifdef OLED_ENABLE
-	#    undef OLED_FONT_H
-	#    define OLED_FONT_H "glcdfont.c"
-	#    define SPLIT_OLED_ENABLE
-	#    undef OLED_TIMEOUT
-	#    define OLED_TIMEOUT 300000
-	#    define OLED_UPDATE_INTERVAL 10
-	#    define ANIM_SIZE 32
-	#    define MIN_WALK_SPEED      10
-	#    define MIN_RUN_SPEED       40
-	#    define ANIM_FRAME_DURATION 200
-	#    define PET_ROWS            3
-	#endif
+/* Luna Pet by helltm */
+#ifdef OLED_ENABLE
+#    undef OLED_FONT_H
+#    define OLED_FONT_H "keyboards/splitkb/elora/keymaps/hellion/glcdfont.c"
+#    define SPLIT_OLED_ENABLE
+#    define OLED_DISPLAY_128X64
+#    undef OLED_TIMEOUT
+#    define OLED_TIMEOUT 300000
+#    define OLED_UPDATE_INTERVAL 10
+#    define ANIM_SIZE 32
+#    define MIN_WALK_SPEED      10
+#    define MIN_RUN_SPEED       40
+#    define ANIM_FRAME_DURATION 200
+#    define PET_ROWS            3
+#endif
 
-	#ifdef WPM_ENABLE
-	#    define SPLIT_WPM_ENABLE
-	#endif
+#ifdef WPM_ENABLE
+#    define SPLIT_WPM_ENABLE
 #endif
