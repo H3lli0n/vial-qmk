@@ -19,7 +19,7 @@
     "features": {
         "bootmagic": true,
         "mousekey":  false,
-        "extrakey":  false,
+        "extrakey":  true,
         "console":   false,
         "rgblight":  true,
         "backlight": false,
