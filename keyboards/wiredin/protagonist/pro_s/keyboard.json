@@ -7,8 +7,13 @@
         "vid": "0x5749",
         "pid": "0x5053",
         "device_version": "0.0.1"
-    }, 
-  
+    },
+    "qmk": {
+        "locking": {
+            "enabled": true,
+            "resync": true
+        }
+    },
     "matrix_pins": {
         "cols": ["A3" , "A2" , "A1" , "B14", "B12", "A10", "A8" , "B4" , "B3" , "A15", "C15", "C14", "C13", "B8"],
         "rows": ["A4" , "A7" , "B0" , "B5" , "B9" , "A0" , "B10"]

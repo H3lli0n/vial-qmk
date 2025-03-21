@@ -8,8 +8,12 @@
         "pid": "0x5048",
         "device_version": "0.0.1"
     }, 
-
-  
+    "qmk": {
+        "locking": {
+            "enabled": true,
+            "resync": true
+        }
+    },
     "matrix_pins": {
         "cols": ["A4" , "A3" , "A2" , "A10", "A8" , "B12", "A15", "B3" , "B4" , "B5" , "C15", "C14", "B9" , "C13"],
         "rows": ["B1" , "B10", "B14", "B8" , "A0", "A1"]
