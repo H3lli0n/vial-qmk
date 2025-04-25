@@ -1,7 +1,6 @@
 {
     "name": "Protagonist PRO-H",
     "manufacturer": "WiredIn",
-    "url": "",
     "maintainer": "Gondolindrim",
     "usb": {
         "vid": "0x5749",
@@ -18,9 +17,8 @@
     },
     "features": {
         "bootmagic": true,
-        "mousekey":  false,
+        "mousekey":  true,
         "extrakey":  true,
-        "console":   false,
         "rgblight":  true,
         "backlight": true,
         "nkro":      true
@@ -29,6 +27,11 @@
         "lto": true
     },
     "diode_direction": "COL2ROW",
+    "backlight": {
+        "pin": "B1",
+        "levels": 20,
+        "as_caps_lock": true
+    },
     "lighting": "qmk_rgblight",
     "rgblight": {
         "led_count": 22,
