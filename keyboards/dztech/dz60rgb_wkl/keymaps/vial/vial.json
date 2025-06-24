@@ -3,10 +3,7 @@
     "rows": 5,
     "cols": 14
   },
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
+  "lighting": "vialrgb",
   "layouts": {
     "keymap": [
       [
