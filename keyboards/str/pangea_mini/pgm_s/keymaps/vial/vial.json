@@ -1,5 +1,5 @@
 {
-  "name": "Pangea Mini",
+  "name": "Pangea Mini Solder",
   "matrix": { "rows": 5, "cols": 14 },
   "layouts": {
     "labels": [

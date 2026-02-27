@@ -1,10 +1,9 @@
 {
-    "name": "Pangea Mini",
+    "name": "Pangea Mini Hotswap",
     "matrix": { "rows": 5, "cols": 14 },
     "layouts": {
         "labels": [
             "Split Backspace",
-            "ISO Enter",
             "Split Left Shift",
             "Split Right Shift"
         ],
